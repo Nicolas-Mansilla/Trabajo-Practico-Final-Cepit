@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina de Fede y Nico</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <!-- link bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="div__logo">
+          <img
+            src="https://cdn.icon-icons.com/icons2/2201/PNG/512/apple_music_logo_square_icon_134020.png"
+            class="logo"
+            alt=""
+          />
+        </div>
+        <div class="div__nav">
+          <a href="./index.html" class="a active">Home</a>
+          <a href="./pages/servicio.html" class="a">Nuestro Servicio</a>
+          <a href="./pages/nosotros.html" class="a">Nosotros</a>
+        </div>
+        <div class="div__register">
+          <a href="./pages/register-login.html" class="a">Register</a>
+          <a href="./pages/register-login.html" class="a">Login</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+
+      <div class="container">
+      <h1>Music</h1>
+      <h2>Lo mejor de la musica del momento podes encontrarlo aca.</h2>
+      </div>
+
+      <!-- Carrousel -->
+      <div class="carrousel">
+        <div class="container">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="false"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://wallpaperaccess.com/full/3840804.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Paulo Londra</h5>
+                  <p>
+                    Despues de su pausa en la musica, vuelve mas fuerte que
+                    nunca.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://i.ytimg.com/vi/J81CS9KiuZo/maxresdefault.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Lit Killah</h5>
+                  <p>Del Quinto escalon a romper los escenarios</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://i.ytimg.com/vi/blTc0KbSKAM/maxresdefault.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Zaramay</h5>
+                  <p>El trapero que suena en todos lados.</p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- fin carrousel -->
+    </main>
+
+    <!-- texto anteriora las cards -->
+    <div class="container-fluid">
+      <section class="cards-description">
+        <h3>
+          <ul>
+            <p>
+              Conoce los mejores albumes de tus artistas favoritos, preparate
+              para una nueva experiencia.Ponete tus mejores auris y disfruta de
+              los mejores artistas del mundo de la musica
+            </p>
+          </ul>
+        </h3>
+      </section>
+    </div>
+    <!-- fin texto anteriora las cards -->
+
+    <!-- cards -->
+
+    <div class="container-cards">
+      <section class="card-1">
+        <div class="card" style="width: 20rem">
+          <img
+            src="./images/portadaBadBunny.jpg"
+            class="card-img-top img-fluid"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Bad Bunny</h5>
+            <p class="card-text">
+              YHLQMDLG
+            </p>
+            <a href="https://open.spotify.com/album/5lJqux7orBlA1QzyiBGti1" class="btn btn-primary" target="_blank">Escuchar Album</a>
+          </div>
+        </div>
+      </section>
+      <section class="card-2">
+        <div class="card" style="width: 20rem">
+          <img
+            src="images/Starboy.jpg"
+            class="card-img-top img-fluid"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">The Weekend</h5>
+            <p class="card-text">
+              Starboy
+            </p>
+            <a href="https://open.spotify.com/album/2ODvWsOgouMbaA5xf0RkJe" class="btn btn-primary" target="_blank">Escuchar Album</a>
+          </div>
+        </div>
+      </section>
+      <section class="card-3">
+        <div class="card" style="width: 20rem">
+          <img
+            src="images/Imagine dragons.jpg"
+            class="card-img-top img-fluid"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Imagine Dragons</h5>
+            <p class="card-text">
+             Volve
+            </p>
+            <a href="https://open.spotify.com/album/33pt9HBdGlAbRGBHQgsZsU?autoplay=true" class="btn btn-primary" target="_blank">Escuchar Album</a>
+          </div>
+        </div>
+      </section>
+      <section class="card-4">
+        <div class="card" style="width: 20rem">
+          <img
+            src="images/Niki-nicole.jpg"
+            class="card-img-top img-fluid"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Niki Nicole</h5>
+            <p class="card-text">
+              Recuerdos
+            </p>
+            <a href="https://open.spotify.com/album/16ZMrJHpIg8yz4We1xuvuu" class="btn btn-primary" target="_blank">Escuchar Album</a>
+          </div>
+        </div>
+      </section>
+      <section class="card-5">
+        <div class="card" style="width: 20rem">
+          <img
+            src="images/bunbury.jpg"
+            class="card-img-top img-fluid"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Bunbury</h5>
+            <p class="card-text">
+             Espectativas
+            </p>
+            <a href="https://open.spotify.com/artist/4uqzzJg3ww5eH7IgGV7DMT" class="btn btn-primary" target="_blank">Escuchar Album</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- fin cards1 -->
+
+    <!-- comienzo cards 2 -->
+    <div class="container-cards-2">
+      <section class="card-1">
+        <div class="card" style="width: 20rem">
+          <img
+            src="images/Babasonicos.jpg"
+            class="card-img-top img-fluid"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Babasonicos</h5>
+            <p class="card-text">
+              Noche
+            </p>
+            <a href="https://open.spotify.com/album/5uBA88xQSrGS8sfVru3bWC" class="btn btn-primary" target="_blank">Escuchar Album</a>
+          </div>
+        </div>
+      </section>
+      <section class="card-2">
+        <div class="card" style="width: 20rem">
+          <img src="images/duki.jpg" class="card-img-top img-fluid" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Duki</h5>
+            <p class="card-text">
+              Temporada de Reggaeton
+            </p>
+            <a href="https://open.spotify.com/album/48vGyeerQqM7mWU0JzRkAl?autoplay=true" class="btn btn-primary" target="_blank">Escuchar Album</a>
+          </div>
+        </div>
+      </section>
+      <section class="card-3">
+        <div class="card" style="width: 20rem">
+          <img src="images/Ysy.jpg" class="card-img-top img-fluid" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Ysy A</h5>
+            <p class="card-text">Ysysmo</p>
+            <a href="https://open.spotify.com/album/2Vo0I6ocNBz16QklB1zVc3" class="btn btn-primary" target="_blank">Escuchar Album</a>
+          </div>
+        </div>
+      </section>
+      <section class="card-4">
+        <div class="card" style="width: 20rem">
+          <img
+            src="images/Drake.jpg"
+            class="card-img-top img-fluid"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Drake</h5>
+            <p class="card-text">
+              Scorpion
+            </p>
+            <a href="https://open.spotify.com/album/1ATL5GLyefJaxhQzSPVrLX" class="btn btn-primary" target="_blank">Escuchar Album</a>
+          </div>
+        </div>
+      </section>
+      <section class="card-5">
+        <div class="card" style="width: 20rem">
+          <img
+            src="images/ElHArry.jpg"
+            class="card-img-top img-fluid"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Harry Styles</h5>
+            <p class="card-text">
+              Fine Line
+            </p>
+            <a href="https://open.spotify.com/album/7xV2TzoaVc0ycW7fwBwAml" class="btn btn-primary" target="_blank">Escuchar Album</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="index__footer">
+      <h5>© 2022 Colo-Fede | All Rigths Reserved</h5>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
